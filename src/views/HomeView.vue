@@ -16,8 +16,6 @@ export default {
   components: {
     SingleComponent,
   },
-/*************  ✨ Codeium Command ⭐  *************/
-/******  aa6f0076-c76b-4007-a6d3-61fd4a11299b  *******/
   data() {
     return {
       projects: [],
@@ -36,12 +34,10 @@ export default {
       findProject.complete = !findProject.complete
     }
   },
-/*************  ✨ Codeium Command ⭐  *************/
   /**
    * Lifecycle hook which is called when the component is mounted.
    * Fetches the list of projects from the db.json file.
    */
-/******  93d8fbb0-46de-465d-9daa-edbed2941d11  *******/
   mounted() {
     fetch("http://localhost:3000/projects")
       .then((response) => {

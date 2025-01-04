@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "2",
-      "name": "Project 2",
+      "name": "Project 25",
       "detail": "project detail 2",
       "completed": false,
       "complete": true
@@ -12,6 +12,12 @@
       "name": "Project 3",
       "detail": "project detail 3",
       "completed": true,
+      "complete": false
+    },
+    {
+      "id": "4e09",
+      "name": "pt 3",
+      "detail": "dt 3",
       "complete": false
     }
   ]
